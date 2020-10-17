@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="metroTile2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>277, 138</value>
+  </data>
+  <data name="metroTile2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 100</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="metroTile2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="metroTile2.Text" xml:space="preserve">
+    <value>BF</value>
+  </data>
+  <data name="metroTile2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="metroTile2.TileImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="&gt;&gt;metroTile2.Name" xml:space="preserve">
+    <value>metroTile2</value>
+  </data>
+  <data name="&gt;&gt;metroTile2.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTile, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;metroTile2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;metroTile2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="metroTile1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 138</value>
+  </data>
+  <data name="metroTile1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 100</value>
+  </data>
+  <data name="metroTile1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="metroTile1.Text" xml:space="preserve">
+    <value>PM1</value>
+  </data>
+  <data name="metroTile1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;metroTile1.Name" xml:space="preserve">
+    <value>metroTile1</value>
+  </data>
+  <data name="&gt;&gt;metroTile1.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTile, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;metroTile1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;metroTile1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="metroTile3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>154, 138</value>
+  </data>
+  <data name="metroTile3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 100</value>
+  </data>
+  <data name="metroTile3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="metroTile3.Text" xml:space="preserve">
+    <value>BMD</value>
+  </data>
+  <data name="metroTile3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;metroTile3.Name" xml:space="preserve">
+    <value>metroTile3</value>
+  </data>
+  <data name="&gt;&gt;metroTile3.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTile, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;metroTile3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;metroTile3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>425, 300</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Thórr File Unpacker</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainWindow</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>MetroFramework.Forms.MetroForm, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+</root>
